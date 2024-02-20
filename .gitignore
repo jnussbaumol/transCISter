@@ -167,3 +167,7 @@ cython_debug/
 
 # except for the test PDF I made
 !test.pdf
+
+# ignore the output of pkl evaluations
+*.yml
+*.json
