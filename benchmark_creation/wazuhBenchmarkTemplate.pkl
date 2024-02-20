@@ -1,0 +1,33 @@
+headerComment = ""
+policy {
+    id = ""
+    file = ""
+    name = ""
+    description = ""
+    references = {
+        ""
+    }
+}
+requirements {
+    title = ""
+    description = ""
+    condition = ""
+    rules {
+        ""
+    }
+}
+checks {
+    ["id"] {
+        title = ""
+        description = ""
+        rationale = ""
+        remediation = ""
+        compliance {
+            "CIS Rule Number Goes Here"
+        }
+        condition = ""
+        rules {
+            ""
+        }
+    }
+}
