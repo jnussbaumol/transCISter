@@ -1,0 +1,36 @@
+module CIS
+
+class cisControl {
+ controlsVersion: String
+ control {
+    cscNumber: String
+    cscTitle: String
+    cscDescription: String
+    ig1: Boolean
+    ig2: Boolean
+    ig3: Boolean
+ }   
+}
+
+technologyName: String
+technologyVersion: String
+cisBenchmarkVersion: String
+title: String
+ruleID: String
+assessmentStatus: String
+profileApplicability = new Listing {
+   default {
+      "Level 1"
+      "Level 2"
+   }
+}
+description: String
+rationaleStatement: String
+impactStatement: String
+auditProcedure: String
+remediationProcedure: String
+defaultValue: String
+references: Listing<String>
+cisControls: Listing<cisControl>
+additionalInformation: String
+profileDefinitions: String

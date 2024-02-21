@@ -1,0 +1,23 @@
+/// Environment configuration for building benchmarks from PDFs.
+
+module EnvironmentConfig
+
+/// The path to the PDF you're converting 
+pdf: String = "pdf_extraction/media/test.pdf"
+
+/// The path to the PDF Pkl
+pdfTemplate = "CIS.pkl"
+
+/// Levels from the above to include
+complianceInclusion = new Listing {
+    "Level 1"
+}
+
+/// Levels from the above to exclude, if you want to create exceptions for the inclusion
+complianceException = new Listing {
+    ""
+}
+
+/// The path to the benchmark Pkl
+benchmarkTemplate = "Wazuh.pkl"
+
