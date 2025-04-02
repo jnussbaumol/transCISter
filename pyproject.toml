@@ -1,0 +1,11 @@
+[project]
+name = "transcister"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.70.0",
+    "pypdf==4.2.0",
+    "tiktoken>=0.9.0",
+]
